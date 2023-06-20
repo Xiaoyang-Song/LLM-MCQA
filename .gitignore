@@ -1,3 +1,6 @@
 # Meta files
 __pycache__/
 .DS_Store
+
+# personal local cache
+hf_cache/

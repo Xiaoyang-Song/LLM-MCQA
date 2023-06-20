@@ -2,4 +2,7 @@
 
 ## Useful resources
 
-1. [RACE dataset description](https://huggingface.co/datasets/race)
+### Dataset Description
+
+1. [RACE](https://huggingface.co/datasets/race)
+2. [COSMOS-QA](https://huggingface.co/datasets/cosmos_qa)
