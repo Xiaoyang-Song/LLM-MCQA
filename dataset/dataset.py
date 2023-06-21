@@ -942,3 +942,6 @@ if __name__ == "__main__":
     print(data.answer_idx)
     print(data.task)
     print(data.exemplars)
+    
+    ic(data.get_natural_prompt())
+    ic(data.get_brown_prompt())
