@@ -95,7 +95,6 @@ class QuestionWithExemplars(Question):
         else:
             return prompt
 
-
 class Exemplar(Question):
 
     def get_natural_prompt(self):
