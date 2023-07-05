@@ -5,34 +5,34 @@ class QADSET():
     def __init__(self, name='RACE'):
         self.dset_name = name
         self.dataset = load_mini_rm(0, False)
-        print(f"type: {type(dataset)} | length: {len(dataset)}")
+        print(f"type: {type(self.dataset)} | length: {len(self.dataset)}")
         # Prompt Question
         self.npq, self.bpq = None, None
 
     # Prepare Natural Prompt Question
-    def npq(self):
+    def get_npq(self):
         if self.npq is None:
             self.npq = [(data.get_natural_prompt(), data.answer_idx) for data in self.dataset]
         return self.npq
 
     # Prepare Brown Prompt Question
-    def bpq(self):
+    def get_bpq(self):
         if self.bpq is None:
             self.bpq = [(data.get_brown_prompt(), data.answer_idx) for data in self.dataset]
         return self.bpq
     
-    def choices(self, mode='index'):
+    def get_choices(self, mode='index'):
         desc, index, index_desc = [], [], []
         for data in self.dataset:
-            choice, idx = data.choice, LETTERS[0:len(data.choices)]
+            content, idx = data.choices, LETTERS[0:len(data.choices)]
             index.append(idx)
-            desc.append(choice)
-            index_desc.append(list(map('. '.join, zip(idx, choice))))
+            desc.append(content)
+            index_desc.append(list(map('. '.join, zip(idx, content))))
         if mode == 'index':
             return index
         elif mode == 'desc':
             return desc
-        elif mode == 'index_desc':
+        elif mode == 'index-desc':
             return index_desc
         else:
             raise NotImplementedError

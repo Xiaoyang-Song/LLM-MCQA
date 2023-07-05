@@ -70,10 +70,3 @@ MMLU_NAMES = [
 # Index
 
 LETTERS = np.array([chr(idx + ord("A")) for idx in range(26)])
-
-
-import itertools
-a = ['1', '2', '3', '4']
-b = ['a', 'b', 'c', 'd']
-print(list(zip(a, b)))
-print(list(map('. '.join, zip(a, b))))

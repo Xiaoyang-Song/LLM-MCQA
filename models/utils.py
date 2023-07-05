@@ -60,4 +60,4 @@ def close_vocab_answering(prompt, choice, tokenizer, model):
     probs = logit_to_prob(logits.squeeze(), tokens.input_ids[0])[-len(toi):]
     ll = prob_to_ll(probs)
     # For inverse perplexity, the higher is the better
-    return probs, ll, toi
+    return probs, ll, tokenizer.decode(toi).strip()

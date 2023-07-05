@@ -1,0 +1,4 @@
+---
+path:
+  ckpt_dir: checkpoint/
+  log_dir: log/

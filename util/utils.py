@@ -1,7 +1,29 @@
 import openai
 import os
+import torch
+# COLOR
+import colored
+import colorama
+from colorama import Fore, Back, Style
 
+def device_info():
+    # DEVICE Configuration
+    print(colored.fg("#ffbf00") + Style.BRIGHT + line(n=120, is_print=False))
+    if torch.backends.mps.is_available():
+        print("-- MPS is built: ", torch.backends.mps.is_built())
+        print("-- Let's use GPUs!")
+    elif torch.cuda.is_available():
+        print(f"-- Current Device: {torch.cuda.get_device_name(0)}")
+        print(
+            f"-- Device Total Memory: {torch.cuda.get_device_properties(0).total_memory / (1024**3):.2f} GB")
+        print("-- Let's use", torch.cuda.device_count(), "GPUs!")
+    else:
+        print("-- Unfortunately, we are only using CPUs now.")
+    line(n=120)
+    print(colored.fg("#d33682") + Style.NORMAL + line(n=120, is_print=False))
 
+def line(x='-',n=80):
+    return x*n
 # Credit: https://github.com/BYU-PCCL/leveraging-llms-for-mcqa/blob/main/utils.py
 
 def idx_to_ltr(idx):
