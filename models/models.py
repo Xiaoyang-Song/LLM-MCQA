@@ -19,8 +19,10 @@ class GPTJModel():
         # version: https://huggingface.co/EleutherAI/gpt-j-6b
         assert version in ["EleutherAI/gpt-j-6B"]
         self.version = version
-        self.tokenizer = AutoTokenizer.from_pretrained(version)
-        self.model = GPTJForCausalLM.from_pretrained(version).to(DEVICE)
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            version, cache_dir=HF_CACHE_DIR_NAME)
+        self.model = GPTJForCausalLM.from_pretrained(
+            version, cache_dir=HF_CACHE_DIR_NAME).to(DEVICE)
 
     def __call__(self, prompt, choice):
         return close_vocab_answering(prompt, choice, self.tokenizer, self.model)
