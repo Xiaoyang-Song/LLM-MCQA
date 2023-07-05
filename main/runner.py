@@ -34,7 +34,7 @@ class RUNNER():
         f.write(line('=', 80)+'\n' + "Experiment Appendix\n" + line('=', 80)+'\n')
         choices = self.dset.get_choices(ans_mode)
         data = self.dset.get_npq()
-        for idx, (choice_lst, (prompt, answer_idx)) in tqdm(enumerate(zip(choices, data))):
+        for idx, (choice_lst, (prompt, answer_idx)) in enumerate(zip(tqdm(choices), data)):
             ll_lst, prob_lst, toi_lst = [], [], []
             for candidate in choice_lst:
                 prob, ll, toi = self.model(prompt, candidate)

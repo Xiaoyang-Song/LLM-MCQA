@@ -39,8 +39,8 @@ if '/' in args.version:
     version = args.version.split('/')[1]
 
 ckpt_dir, log_dir = config['path'].values()
-ckpt_fname = os.path.join(ckpt_dir, f"{args.dset}_{args.n}",f"{args.model}_{version}_ckpt.pt")
-log_fname = os.path.join(log_dir, f"{args.dset}_{args.n}",f"{args.model}_{version}_ckpt.txt")
+ckpt_fname = os.path.join(ckpt_dir, f"{args.dset}_{args.n}",f"{args.model}_{version}_{args.ans_mode}.pt")
+log_fname = os.path.join(log_dir, f"{args.dset}_{args.n}",f"{args.model}_{version}_{args.ans_mode}.log")
 os.makedirs(os.path.join(ckpt_dir, f"{args.dset}_{args.n}"), exist_ok=True)
 os.makedirs(os.path.join(log_dir, f"{args.dset}_{args.n}"), exist_ok=True)
 outf = open(log_fname, "w")
