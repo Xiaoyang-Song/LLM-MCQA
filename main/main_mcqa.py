@@ -45,9 +45,17 @@ os.makedirs(os.path.join(ckpt_dir, f"{args.dset}_{args.n}"), exist_ok=True)
 os.makedirs(os.path.join(log_dir, f"{args.dset}_{args.n}"), exist_ok=True)
 outf = open(log_fname, "w")
 
+# Configuration
+outf.write(line('=', 80)+'\n' + "Experiment Configuration\n" + line('=', 80)+'\n')
+outf.write(f"Dataset: {args.dset}-{args.n}\n")
+outf.write(f"Model Family: {args.model}\nModel Version: {args.version}\n")
+outf.write(f"Answer Mode: {args.ans_mode}\n")
+
+
 # Run
 runner = RUNNER(dataset, model)
 runner(args.ans_mode, outf)
 
 # Saving checkpoints
+outf.close()
 runner.save(ckpt_fname)

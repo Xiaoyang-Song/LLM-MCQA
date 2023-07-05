@@ -20,7 +20,7 @@ class RUNNER():
         self.reset()
 
     def save(self, path):
-        self.dset, self.model = None, None
+        self.model = None # Model checkpoints will not be stored
         torch.save(self, path)
 
     def reset(self):
@@ -56,6 +56,7 @@ class RUNNER():
             # Logging
             f.write(f">> QUESTION #{idx+1:<5} | Ground Truth: {answer_idx} | Answer: {pred}")
             f.write(" | \u2714\n" if answer_idx == pred else " | \u2718\n" )
+            f.write(f"-- Log Inverse-Perplexity: {list(np.round(np.array(ll_lst), 4))}\n")
 
         # Results logging
         self.preds = np.array(self.preds)
@@ -63,6 +64,7 @@ class RUNNER():
         acc = sum(self.preds == self.gt) / len(self.gt)
         f.write(line('=', 80)+'\n')
         f.write(f"MCQA Accuracy: {acc * 100:.2f}%\n")
+        f.write(line('=', 80)+'\n')
 
 
 if __name__ == '__main__':
