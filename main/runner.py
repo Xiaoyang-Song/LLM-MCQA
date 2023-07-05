@@ -54,8 +54,15 @@ class RUNNER():
             self.preds.append(pred)
             self.gt.append(answer_idx)
             # Logging
-            f.write(f">> QUESTION #{idx+1:<5} | Ground Truth: {answer_idx} | Answer: {pred}\n")
+            f.write(f">> QUESTION #{idx+1:<5} | Ground Truth: {answer_idx} | Answer: {pred}")
+            f.write(" | \u2714\n" if answer_idx == pred else " | \u2718\n" )
 
+        # Results logging
+        self.preds = np.array(self.preds)
+        self.gt = np.array(self.gt)
+        acc = sum(self.preds == self.gt) / len(self.gt)
+        f.write(line('=', 80)+'\n')
+        f.write(f"MCQA Accuracy: {acc * 100:.2f}%\n")
 
 
 if __name__ == '__main__':
