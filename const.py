@@ -5,7 +5,7 @@ DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 REPRODUCIBILITY_SEED = 2023
 
-ON_GL = True
+ON_GL = False
 if ON_GL:
     HF_CACHE_DIR_NAME = "../scratch/hf_cache"
 else:
