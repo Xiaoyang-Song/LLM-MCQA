@@ -19,6 +19,10 @@ class RUNNER():
         # Reset / Initialize Runner
         self.reset()
 
+    def save(self, path):
+        self.dset, self.model = None, None
+        torch.save(self, path)
+
     def reset(self):
         self.token_of_interest = []
         self.likelihood = []

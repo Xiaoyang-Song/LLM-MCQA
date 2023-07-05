@@ -48,4 +48,6 @@ outf = open(log_fname, "w")
 # Run
 runner = RUNNER(dataset, model)
 runner(args.ans_mode, outf)
-torch.save(runner, ckpt_fname)
+
+# Saving checkpoints
+runner.save(ckpt_fname)
