@@ -211,14 +211,14 @@ def load_tiny_obqa(n_shots, do_strong_shuffle):
     return random.sample(qwes, 100)
 
 
-def load_mini_rm(n_shots, do_strong_shuffle):
+def load_mini_rm(n_shots, do_strong_shuffle, n):
     qwes = get_questions_with_exemplars(
         info=get_dataset_info("rm"),
         n_shots=n_shots,
         do_strong_shuffle=do_strong_shuffle
     )
     random.seed(REPRODUCIBILITY_SEED)
-    return random.sample(qwes, 500)
+    return random.sample(qwes, n)
 
 
 def load_mini_sc(n_shots, do_strong_shuffle):

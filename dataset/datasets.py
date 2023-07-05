@@ -2,9 +2,10 @@ from dataset.utils import *
 from const import LETTERS
 
 class QADSET():
-    def __init__(self, name='RACE'):
+    def __init__(self, name='RACE', n=500):
         self.dset_name = name
-        self.dataset = load_mini_rm(0, False)
+        self.n = n
+        self.dataset = load_mini_rm(0, False, n)
         print(f"type: {type(self.dataset)} | length: {len(self.dataset)}")
         # Prompt Question
         self.npq, self.bpq = None, None

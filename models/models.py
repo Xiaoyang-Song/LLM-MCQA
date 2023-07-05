@@ -13,6 +13,7 @@ from transformers import AutoTokenizer, GPTJForCausalLM # GPT-J
 # External imports
 from models.utils import *
 
+
 class GPTJModel():
     def __init__(self, version):
         # version: https://huggingface.co/EleutherAI/gpt-j-6b
@@ -24,6 +25,11 @@ class GPTJModel():
     def __call__(self, prompt, choice):
         return close_vocab_answering(prompt, choice, self.tokenizer, self.model)
 
+
+# Define model dictionary
+MODELS = {
+    'gpt-j': GPTJModel
+}
 
 if __name__ == '__main__':
     pass
