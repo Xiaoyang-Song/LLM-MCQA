@@ -12,7 +12,25 @@ class QADSET():
         print(data.task)
         print(data.exemplars)
 
+        # Prompt Question
+        self.npq, self.bpq = None, None
+
     # Prepare Natural Prompt Question
-    def prepare_npq(self):
-        self.npq
+    def get_npq(self):
+        if self.npq is None:
+            self.npq = [data.get_natural_prompt() for data in self.dataset]
+        return self.npq
+
+    # Prepare Brown Prompt Question
+    def get_bpq(self):
+        if self.bpq is None:
+            self.bpq = [data.get_brown_prompt() for data in self.dataset]
+        return self.bpq
+    
+    def get_ans_lst(self):
+        desc = [data.choices for data in self.dataset]
+        index = []
+
+if __name__ == '__main__':
+    pass
         

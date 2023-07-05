@@ -1,5 +1,7 @@
 import numpy as np
+import torch
 
+DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 REPRODUCIBILITY_SEED = 2023
 HF_CACHE_DIR_NAME = "hf_cache"

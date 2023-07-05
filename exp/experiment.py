@@ -11,4 +11,16 @@ from colorama import Fore, Back, Style
 import colored
 from tabulate import tabulate
 
+# External imports
+from dataset.datasets import QADSET
+from models.models import *
 
+
+class RUNNER():
+    def __init__(self, dset, model):
+        self.dset = dset
+        self.model = model
+        # Logging
+
+    def __call__(self):
+        pass
