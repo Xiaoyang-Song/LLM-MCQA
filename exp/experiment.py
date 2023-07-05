@@ -21,6 +21,7 @@ class RUNNER():
         self.dset = dset
         self.model = model
         # Logging
+        self.preds = []
 
-    def __call__(self):
-        pass
+    def __call__(self, ans_mode):
+        

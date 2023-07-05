@@ -1,6 +1,7 @@
 import openai
 import os
 
+
 # Credit: https://github.com/BYU-PCCL/leveraging-llms-for-mcqa/blob/main/utils.py
 
 def idx_to_ltr(idx):
