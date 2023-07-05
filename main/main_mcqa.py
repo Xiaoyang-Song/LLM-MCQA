@@ -18,7 +18,7 @@ parser.add_argument('--verbose', help='Verbose mode flag', action='store_true')
 # Experiment Arguments
 parser.add_argument('--dset', help='Dataset', type=str)
 parser.add_argument('--n', help='Number of questions', type=int)
-parser.add_argument('--ans_mode', help='Answer type: index | desc | index-desc', tpe=str)
+parser.add_argument('--ans_mode', help='Answer type: index | desc | index-desc', type=str)
 parser.add_argument('--model', help='Model family', type=str)
 parser.add_argument('--version', help='Model version', type=str)
 
@@ -31,7 +31,7 @@ dataset = QADSET(name=args.dset, n=args.n)
 
 # Model Loading
 version = args.version
-model = MODELS['args.model'](version)
+model = MODELS[args.model](version)
 
 # Path
 # Process model version information
