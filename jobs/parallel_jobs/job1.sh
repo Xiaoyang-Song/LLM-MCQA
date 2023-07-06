@@ -6,7 +6,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --nodes=1
 #SBATCH --partition=standard
-#SBATCH --mem=16GB
+#SBATCH --mem=128GB
 #SBATCH --cpus-per-task=8
 #SBATCH --time=24:00:00
 #SBATCH --output=/home/xysong/LLM-MCQA/slrum-jobs/out.log
