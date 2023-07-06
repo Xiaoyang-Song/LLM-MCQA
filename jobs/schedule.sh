@@ -17,7 +17,7 @@ export PYTHONPATH=$PYTHONPATH$:`pwd`
 
 # Model: GPT4All-J
 ### RACE-M: rm
-sbatch jobs/parallel_jobs/gpt4all-j/rm_i.sh
+# sbatch jobs/parallel_jobs/gpt4all-j/rm_i.sh
 sbatch jobs/parallel_jobs/gpt4all-j/rm_d.sh
 sbatch jobs/parallel_jobs/gpt4all-j/rm_id.sh
 ### Cosmos-QA: cqa
