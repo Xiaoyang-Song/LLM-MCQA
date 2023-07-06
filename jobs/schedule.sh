@@ -1,29 +1,26 @@
 #!/bin/bash
 
-# Path configuration
+# Step 1: Python Path configuration
 export PYTHONPATH=$PYTHONPATH$:`pwd`
 
-# Run jobs
+# Step 2: Run jobs
 
-
-# GPT-J
-# RACE-M
+# Model: GPT-J
+### RACE-M: rm
 # sbatch jobs/parallel_jobs/gpt-j/rm_i.sh
 # sbatch jobs/parallel_jobs/gpt-j/rm_d.sh
 # sbatch jobs/parallel_jobs/gpt-j/rm_id.sh
-
-# Cosmos-QA
+### Cosmos-QA: cqa
 # sbatch jobs/parallel_jobs/gpt-j/cqa_i.sh
 # sbatch jobs/parallel_jobs/gpt-j/cqa_d.sh
 # sbatch jobs/parallel_jobs/gpt-j/cqa_id.sh
 
-# GPT4All-J
-# RACE-M
+# Model: GPT4All-J
+### RACE-M: rm
 sbatch jobs/parallel_jobs/gpt4all-j/rm_i.sh
 sbatch jobs/parallel_jobs/gpt4all-j/rm_d.sh
 sbatch jobs/parallel_jobs/gpt4all-j/rm_id.sh
-
-# Cosmos-QA
+### Cosmos-QA: cqa
 sbatch jobs/parallel_jobs/gpt4all-j/cqa_i.sh
 sbatch jobs/parallel_jobs/gpt4all-j/cqa_d.sh
 sbatch jobs/parallel_jobs/gpt4all-j/cqa_id.sh

@@ -10,25 +10,26 @@ from icecream import ic
 import transformers
 from transformers import AutoTokenizer, GPTJForCausalLM, GPT2LMHeadModel, AutoModelForCausalLM
 
-
 # External imports
 from models.utils import *
+
 class GPT4AllJModel():
     def __init__(self, version):
-        # version: https://huggingface.co/nomic-ai/gpt4all-j
+        # versions (by NomicAI): https://huggingface.co/nomic-ai/gpt4all-j
         assert version in ['nomic-ai/gpt4all-j']
         self.version = version
         self.tokenizer = AutoTokenizer.from_pretrained(
             version, cache_dir=HF_CACHE_DIR_NAME)
+        # possible revisions: ['v1.0', 'v1.1-breezy', 'v1.2-jazzy', 'v1.3-groovy']
         self.model = AutoModelForCausalLM.from_pretrained(
-            version, revision="v1.2-jazzy", cache_dir=HF_CACHE_DIR_NAME).to(DEVICE)
+            version, revision="v1.0", cache_dir=HF_CACHE_DIR_NAME).to(DEVICE)
 
     def __call__(self, prompt, choice):
         return close_vocab_answering(prompt, choice, self.tokenizer, self.model)
 
 class GPTJModel():
     def __init__(self, version):
-        # version: https://huggingface.co/EleutherAI/gpt-j-6b
+        # versions (by EleutherAI): https://huggingface.co/EleutherAI/gpt-j-6b
         assert version in ['EleutherAI/gpt-j-6B']
         self.version = version
         self.tokenizer = AutoTokenizer.from_pretrained(
@@ -41,7 +42,7 @@ class GPTJModel():
 
 class GPT2Model():
     def __init__(self, version):
-        # version: https://huggingface.co/models?sort=downloads&search=gpt2
+        # versions (by OpenAI): https://huggingface.co/models?sort=downloads&search=gpt2
         assert version in ['gpt2', 'gpt2-medium', 'gpt2-large', 'gpt2-xl']
         self.version = version
         self.tokenizer = AutoTokenizer.from_pretrained(

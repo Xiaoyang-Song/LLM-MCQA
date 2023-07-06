@@ -1,10 +1,13 @@
 import numpy as np
 import torch
 
+# Computing DEVICE Configuration
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+# Reproducibility Configuration
 REPRODUCIBILITY_SEED = 2023
 
+# HPC Path Configuration
 ON_GL = False
 if ON_GL:
     HF_CACHE_DIR_NAME = "../scratch/hf_cache"
@@ -73,5 +76,4 @@ MMLU_NAMES = [
 ]
 
 # Index
-
 LETTERS = np.array([chr(idx + ord("A")) for idx in range(26)])
