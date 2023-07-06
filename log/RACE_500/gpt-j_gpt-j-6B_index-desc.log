@@ -1,0 +1,1013 @@
+================================================================================
+Experiment Configuration
+================================================================================
+Dataset: RACE-500
+Model Family: gpt-j
+Model Version: EleutherAI/gpt-j-6B
+Answer Mode: index-desc
+================================================================================
+Experiment Appendix
+================================================================================
+>> QUESTION #1     | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.2516, -11.3343, -11.9979, -12.864]
+>> QUESTION #2     | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.5647, -11.2679, -11.4244, -11.2833]
+>> QUESTION #3     | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.5752, -11.4355, -12.0628, -11.73]
+>> QUESTION #4     | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-13.2685, -12.7118, -13.0881, -12.6981]
+>> QUESTION #5     | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.4178, -12.6238, -11.945, -12.1387]
+>> QUESTION #6     | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-14.0993, -12.5635, -12.2636, -12.1074]
+>> QUESTION #7     | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.8562, -15.0734, -11.5543, -12.843]
+>> QUESTION #8     | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4518, -13.1191, -12.7767, -12.4758]
+>> QUESTION #9     | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.5826, -11.255, -12.0988, -10.836]
+>> QUESTION #10    | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-14.4749, -14.3863, -14.1344, -13.4481]
+>> QUESTION #11    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8447, -13.064, -12.4505, -11.3589]
+>> QUESTION #12    | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.5459, -12.0988, -11.8525, -11.9338]
+>> QUESTION #13    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.7183, -12.4056, -13.2252, -12.6014]
+>> QUESTION #14    | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.1949, -12.3, -13.2295, -13.3757]
+>> QUESTION #15    | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-9.5583, -10.1065, -10.9234, -9.0699]
+>> QUESTION #16    | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.1192, -10.854, -11.5706, -12.2024]
+>> QUESTION #17    | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.0368, -12.7508, -12.7592, -13.1923]
+>> QUESTION #18    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.0263, -12.2507, -11.2333, -11.6722]
+>> QUESTION #19    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.1466, -10.5785, -11.5409, -10.8999]
+>> QUESTION #20    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.464, -11.7491, -11.8919, -11.6538]
+>> QUESTION #21    | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.3134, -12.1334, -12.7897, -12.2425]
+>> QUESTION #22    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.056, -13.0829, -13.5084, -13.7763]
+>> QUESTION #23    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.6221, -11.7414, -12.206, -12.0812]
+>> QUESTION #24    | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.5613, -12.158, -14.056, -12.453]
+>> QUESTION #25    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9766, -12.3713, -11.4971, -12.6766]
+>> QUESTION #26    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.388, -12.4631, -12.3331, -12.9986]
+>> QUESTION #27    | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-11.7042, -10.2205, -10.8807, -10.5261]
+>> QUESTION #28    | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.6608, -14.6252, -11.2707, -12.2003]
+>> QUESTION #29    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.0231, -12.8775, -12.4396, -11.8694]
+>> QUESTION #30    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.6699, -11.6922, -11.68, -11.8052]
+>> QUESTION #31    | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.9757, -12.0956, -11.3612, -12.1797]
+>> QUESTION #32    | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.3426, -12.3147, -12.5485, -10.8367]
+>> QUESTION #33    | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.4788, -11.176, -11.6303, -11.0412]
+>> QUESTION #34    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.1374, -9.4487, -9.3894, -10.7914]
+>> QUESTION #35    | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.2526, -12.7076, -13.7313, -11.6075]
+>> QUESTION #36    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.7859, -12.3565, -12.2391, -12.3563]
+>> QUESTION #37    | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-10.9598, -11.2014, -10.8824, -11.9695]
+>> QUESTION #38    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.1336, -12.1482, -12.2263, -12.363]
+>> QUESTION #39    | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-9.1112, -8.2042, -10.2483, -8.4169]
+>> QUESTION #40    | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.898, -11.6661, -11.6301, -11.8465]
+>> QUESTION #41    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.9531, -11.9831, -12.4302, -12.7244]
+>> QUESTION #42    | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.9835, -12.4569, -11.8059, -11.1367]
+>> QUESTION #43    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.124, -12.9415, -12.6592, -14.4138]
+>> QUESTION #44    | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.4772, -14.7042, -14.021, -13.2839]
+>> QUESTION #45    | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.5039, -11.1893, -11.6685, -12.3886]
+>> QUESTION #46    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.8536, -10.661, -11.355, -10.7367]
+>> QUESTION #47    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.9974, -10.4884, -10.56, -10.3476]
+>> QUESTION #48    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.7344, -12.0596, -12.0268, -13.2154]
+>> QUESTION #49    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.4377, -11.5543, -11.4125, -11.5045]
+>> QUESTION #50    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1965, -13.4184, -12.4448, -14.1646]
+>> QUESTION #51    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1886, -11.6591, -12.9606, -12.0644]
+>> QUESTION #52    | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.0142, -12.2724, -11.4397, -13.8373]
+>> QUESTION #53    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8678, -11.6724, -12.3523, -11.4125]
+>> QUESTION #54    | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-14.9132, -11.0707, -12.287, -14.5601]
+>> QUESTION #55    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4278, -13.6455, -11.9552, -12.522]
+>> QUESTION #56    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.5037, -10.6704, -10.7947, -9.8325]
+>> QUESTION #57    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.0583, -13.3143, -12.6583, -12.9092]
+>> QUESTION #58    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4073, -11.4606, -12.7044, -12.5495]
+>> QUESTION #59    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.972, -11.2399, -11.2618, -11.5657]
+>> QUESTION #60    | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.3935, -11.9679, -13.1692, -12.3163]
+>> QUESTION #61    | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-12.2317, -12.4643, -11.9237, -12.3814]
+>> QUESTION #62    | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-10.2573, -9.4661, -10.1661, -10.0936]
+>> QUESTION #63    | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.3486, -11.7059, -12.4558, -12.8305]
+>> QUESTION #64    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.2709, -11.9707, -11.3755, -12.4417]
+>> QUESTION #65    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.3969, -12.9778, -13.5281, -13.194]
+>> QUESTION #66    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.6522, -11.1818, -15.2205, -11.8042]
+>> QUESTION #67    | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.4858, -11.2959, -12.4256, -11.8815]
+>> QUESTION #68    | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.5541, -11.5046, -12.4733, -12.0099]
+>> QUESTION #69    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.7972, -11.9414, -11.3641, -11.8051]
+>> QUESTION #70    | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.1868, -12.4126, -11.595, -12.4845]
+>> QUESTION #71    | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.4258, -13.0035, -13.0923, -12.2387]
+>> QUESTION #72    | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-10.662, -10.2957, -11.2856, -11.289]
+>> QUESTION #73    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.9527, -10.8085, -10.9473, -11.2455]
+>> QUESTION #74    | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-14.9063, -12.9401, -13.208, -12.5163]
+>> QUESTION #75    | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.2213, -11.1286, -11.4088, -11.3429]
+>> QUESTION #76    | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.8676, -12.1987, -11.4036, -12.8091]
+>> QUESTION #77    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-13.0754, -14.1143, -14.4159, -15.2049]
+>> QUESTION #78    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8105, -14.0292, -14.1508, -14.1666]
+>> QUESTION #79    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.0209, -11.2719, -12.0845, -12.4394]
+>> QUESTION #80    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8743, -11.8938, -11.7733, -11.3379]
+>> QUESTION #81    | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8878, -13.3366, -15.1689, -13.5482]
+>> QUESTION #82    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-13.3023, -13.5686, -14.6731, -14.4751]
+>> QUESTION #83    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.3192, -11.6471, -11.9056, -12.7907]
+>> QUESTION #84    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.6104, -12.3083, -12.9992, -12.0496]
+>> QUESTION #85    | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-13.4994, -12.5535, -13.142, -12.6749]
+>> QUESTION #86    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.2867, -12.186, -12.1631, -13.5446]
+>> QUESTION #87    | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.6421, -12.7326, -12.2152, -11.2371]
+>> QUESTION #88    | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.6536, -12.6285, -11.2779, -13.5931]
+>> QUESTION #89    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9469, -10.9821, -12.9095, -11.0653]
+>> QUESTION #90    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.5914, -9.9879, -10.9991, -10.3397]
+>> QUESTION #91    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.5917, -12.6512, -9.1165, -10.3342]
+>> QUESTION #92    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9366, -11.5037, -11.9375, -12.0606]
+>> QUESTION #93    | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.3865, -13.0863, -12.2858, -11.9286]
+>> QUESTION #94    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-15.2665, -16.5677, -15.624, -15.9209]
+>> QUESTION #95    | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.0291, -11.9993, -11.3657, -11.9509]
+>> QUESTION #96    | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.6802, -13.6935, -13.8837, -13.5995]
+>> QUESTION #97    | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.7713, -10.6621, -10.3549, -10.6636]
+>> QUESTION #98    | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.7672, -14.2419, -13.7905, -13.5026]
+>> QUESTION #99    | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.102, -12.2099, -12.5338, -12.8158]
+>> QUESTION #100   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.5189, -12.0552, -14.0181, -13.2883]
+>> QUESTION #101   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.5637, -12.3782, -13.3457, -13.6787]
+>> QUESTION #102   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.6226, -11.343, -14.1367, -12.2814]
+>> QUESTION #103   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.0873, -12.4892, -13.0628, -11.8369]
+>> QUESTION #104   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.3652, -12.2257, -11.362, -12.8654]
+>> QUESTION #105   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.2061, -11.0386, -10.7973, -10.6474]
+>> QUESTION #106   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9207, -11.9704, -12.177, -12.6038]
+>> QUESTION #107   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.554, -10.6565, -12.0807, -12.5501]
+>> QUESTION #108   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.1132, -12.611, -11.9882, -12.5491]
+>> QUESTION #109   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.8309, -14.0697, -13.6474, -11.1988]
+>> QUESTION #110   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.9332, -13.4061, -13.645, -14.3389]
+>> QUESTION #111   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1671, -13.3982, -12.3424, -11.4423]
+>> QUESTION #112   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.414, -14.0377, -13.8785, -15.1759]
+>> QUESTION #113   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.4927, -12.6927, -10.9551, -10.7809]
+>> QUESTION #114   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1501, -11.8008, -12.2956, -13.1688]
+>> QUESTION #115   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.7016, -12.8586, -12.7709, -12.4815]
+>> QUESTION #116   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9609, -10.9898, -13.3215, -11.5156]
+>> QUESTION #117   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-10.5043, -9.4957, -9.3982, -10.0938]
+>> QUESTION #118   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.6409, -13.1005, -12.2485, -12.9772]
+>> QUESTION #119   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.8489, -11.2233, -11.9884, -11.9729]
+>> QUESTION #120   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-9.9388, -10.6566, -11.3991, -11.4419]
+>> QUESTION #121   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.0754, -10.0215, -10.4136, -10.0872]
+>> QUESTION #122   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.0754, -11.2637, -11.525, -12.2452]
+>> QUESTION #123   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.7867, -11.1964, -11.6583, -11.8234]
+>> QUESTION #124   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.2488, -10.5475, -10.2803, -11.9418]
+>> QUESTION #125   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-13.994, -13.5818, -14.1739, -12.9547]
+>> QUESTION #126   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.975, -12.1797, -12.9997, -11.9865]
+>> QUESTION #127   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.0692, -12.3137, -12.8736, -12.9061]
+>> QUESTION #128   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.0844, -13.532, -12.3798, -13.6513]
+>> QUESTION #129   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.9115, -11.5771, -12.4757, -11.6385]
+>> QUESTION #130   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.5249, -11.5736, -13.4527, -12.7523]
+>> QUESTION #131   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.3916, -12.0454, -11.6876, -13.307]
+>> QUESTION #132   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.5558, -10.7126, -11.2593, -10.039]
+>> QUESTION #133   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.7862, -12.4767, -12.7046, -12.3011]
+>> QUESTION #134   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.6854, -11.5231, -13.1107, -11.9316]
+>> QUESTION #135   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-11.8152, -10.1615, -12.3677, -11.8481]
+>> QUESTION #136   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.4355, -11.5094, -11.1355, -11.9629]
+>> QUESTION #137   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.0911, -13.2699, -11.8214, -13.6089]
+>> QUESTION #138   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.5842, -12.9294, -12.9805, -14.1819]
+>> QUESTION #139   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.8342, -10.4003, -10.7835, -10.8391]
+>> QUESTION #140   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.7305, -13.0942, -15.1168, -12.8828]
+>> QUESTION #141   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.6971, -13.2161, -14.0296, -11.6819]
+>> QUESTION #142   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.2391, -13.7599, -14.3467, -14.3255]
+>> QUESTION #143   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.5167, -12.5387, -13.0804, -12.917]
+>> QUESTION #144   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.2077, -11.3314, -11.4258, -11.1343]
+>> QUESTION #145   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.0598, -11.4573, -11.962, -11.2644]
+>> QUESTION #146   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.0372, -11.1099, -10.8526, -11.3942]
+>> QUESTION #147   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.6171, -13.7194, -12.8366, -12.0253]
+>> QUESTION #148   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.5357, -12.5446, -12.1478, -10.966]
+>> QUESTION #149   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.1156, -13.5737, -12.9115, -12.7183]
+>> QUESTION #150   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.0585, -10.5706, -10.567, -11.3071]
+>> QUESTION #151   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-11.4161, -11.3006, -11.8649, -11.7691]
+>> QUESTION #152   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.6697, -11.3049, -11.1305, -11.6888]
+>> QUESTION #153   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.4175, -11.2237, -11.7633, -11.7347]
+>> QUESTION #154   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.367, -10.8849, -11.6231, -11.9165]
+>> QUESTION #155   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.7067, -11.0052, -14.2651, -14.5886]
+>> QUESTION #156   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9224, -12.418, -13.6317, -14.2338]
+>> QUESTION #157   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.4281, -11.6394, -11.1325, -11.106]
+>> QUESTION #158   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.5165, -10.135, -11.6996, -11.2218]
+>> QUESTION #159   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.0822, -11.9466, -12.1337, -11.5314]
+>> QUESTION #160   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.2938, -11.0583, -11.7362, -12.5718]
+>> QUESTION #161   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-13.5605, -13.3031, -13.5999, -13.4616]
+>> QUESTION #162   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.5862, -12.3874, -12.348, -12.6466]
+>> QUESTION #163   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.182, -11.305, -11.5804, -11.411]
+>> QUESTION #164   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.3201, -14.4742, -11.6171, -11.7113]
+>> QUESTION #165   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8078, -12.6022, -13.4694, -12.7]
+>> QUESTION #166   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-13.0491, -12.9, -13.4395, -12.4713]
+>> QUESTION #167   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-8.8291, -8.7685, -9.9247, -9.9963]
+>> QUESTION #168   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.5267, -12.6287, -13.1706, -13.3225]
+>> QUESTION #169   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-16.4088, -15.3547, -14.5811, -13.8802]
+>> QUESTION #170   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.0985, -10.264, -10.9558, -12.7688]
+>> QUESTION #171   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.0145, -12.4841, -12.1136, -12.9224]
+>> QUESTION #172   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.2983, -12.5409, -12.8966, -11.9818]
+>> QUESTION #173   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-13.5568, -11.6625, -12.6153, -12.0859]
+>> QUESTION #174   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.1647, -14.8495, -13.9831, -11.7188]
+>> QUESTION #175   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.5703, -12.7802, -14.1796, -12.885]
+>> QUESTION #176   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-13.2568, -12.9343, -11.3831, -12.6876]
+>> QUESTION #177   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.7875, -13.3054, -13.6267, -13.1167]
+>> QUESTION #178   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.6719, -8.9072, -9.1943, -8.999]
+>> QUESTION #179   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8681, -11.5464, -10.9304, -11.625]
+>> QUESTION #180   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-11.4239, -11.8289, -11.8652, -10.9544]
+>> QUESTION #181   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-9.6992, -10.0866, -11.4527, -10.7747]
+>> QUESTION #182   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.5532, -12.167, -12.1872, -13.4376]
+>> QUESTION #183   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-9.3544, -9.7298, -10.278, -10.1926]
+>> QUESTION #184   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.1731, -11.0338, -11.7144, -10.7768]
+>> QUESTION #185   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.6057, -11.8298, -11.5001, -15.1516]
+>> QUESTION #186   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.086, -12.6603, -12.7, -11.9394]
+>> QUESTION #187   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-13.2792, -12.6262, -12.5134, -16.6805]
+>> QUESTION #188   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.2053, -13.2845, -12.5169, -13.077]
+>> QUESTION #189   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.1752, -11.2007, -12.1386, -10.9772]
+>> QUESTION #190   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.7365, -12.2516, -11.5423, -13.8897]
+>> QUESTION #191   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.4373, -10.9628, -11.2003, -11.3238]
+>> QUESTION #192   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8173, -13.031, -13.6271, -12.425]
+>> QUESTION #193   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8137, -12.3755, -12.4969, -12.2446]
+>> QUESTION #194   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-9.7951, -10.9159, -10.4259, -10.5394]
+>> QUESTION #195   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.2966, -11.824, -12.5549, -11.501]
+>> QUESTION #196   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.681, -11.8299, -12.5457, -13.353]
+>> QUESTION #197   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.4763, -11.5429, -11.7644, -11.4447]
+>> QUESTION #198   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.4273, -10.2784, -10.9985, -11.3129]
+>> QUESTION #199   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.6384, -11.9295, -11.3701, -11.4775]
+>> QUESTION #200   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.9262, -13.1843, -14.0724, -12.572]
+>> QUESTION #201   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.4579, -12.6085, -13.1643, -13.3679]
+>> QUESTION #202   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.0756, -10.5601, -11.338, -11.9105]
+>> QUESTION #203   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-13.0815, -13.4369, -13.5221, -14.0063]
+>> QUESTION #204   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.4209, -10.8273, -11.1165, -11.3085]
+>> QUESTION #205   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.1948, -10.693, -11.3039, -10.5445]
+>> QUESTION #206   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-9.2269, -9.3297, -10.0777, -10.8062]
+>> QUESTION #207   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1613, -13.4909, -12.8191, -12.1001]
+>> QUESTION #208   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.6982, -11.2185, -11.5476, -12.7327]
+>> QUESTION #209   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.4052, -12.4959, -12.2002, -13.0813]
+>> QUESTION #210   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-10.7473, -11.997, -11.4069, -10.4398]
+>> QUESTION #211   | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.5579, -12.5479, -12.1784, -12.5778]
+>> QUESTION #212   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.1443, -13.2599, -11.3452, -10.203]
+>> QUESTION #213   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.9882, -12.1613, -12.5883, -12.3705]
+>> QUESTION #214   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8473, -13.7057, -12.6334, -14.7162]
+>> QUESTION #215   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.5937, -11.3773, -12.14, -11.7569]
+>> QUESTION #216   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-14.2432, -11.337, -11.1972, -12.2628]
+>> QUESTION #217   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4722, -11.7292, -11.771, -12.0615]
+>> QUESTION #218   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.5386, -13.0888, -13.2057, -13.6654]
+>> QUESTION #219   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.3194, -11.5496, -13.5209, -12.701]
+>> QUESTION #220   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-13.1724, -14.0634, -13.118, -14.5869]
+>> QUESTION #221   | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.0152, -13.2502, -12.5108, -12.7231]
+>> QUESTION #222   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.9367, -11.8233, -12.0138, -12.6471]
+>> QUESTION #223   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.0348, -13.4654, -14.4834, -12.7197]
+>> QUESTION #224   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.5773, -12.4949, -10.9639, -11.8689]
+>> QUESTION #225   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.9191, -12.2038, -12.5479, -12.5248]
+>> QUESTION #226   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.2094, -12.1596, -11.9123, -10.6866]
+>> QUESTION #227   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.6547, -10.3776, -11.2962, -11.7739]
+>> QUESTION #228   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8066, -11.6267, -10.9128, -11.694]
+>> QUESTION #229   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.4061, -11.2653, -11.2537, -11.3851]
+>> QUESTION #230   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.229, -13.4426, -13.055, -11.6397]
+>> QUESTION #231   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.6362, -11.1549, -12.1213, -11.5145]
+>> QUESTION #232   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.3796, -13.8575, -13.1377, -13.4348]
+>> QUESTION #233   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.4402, -11.8788, -12.595, -12.2988]
+>> QUESTION #234   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.7195, -10.4647, -10.6639, -11.2031]
+>> QUESTION #235   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-12.9464, -12.6196, -12.4767, -13.1619]
+>> QUESTION #236   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.6438, -11.793, -12.0003, -11.5751]
+>> QUESTION #237   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.0182, -11.7608, -12.7885, -12.2433]
+>> QUESTION #238   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.1479, -11.2805, -11.3428, -10.6879]
+>> QUESTION #239   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4066, -12.367, -12.0583, -13.3058]
+>> QUESTION #240   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.571, -13.2506, -11.8338, -11.8912]
+>> QUESTION #241   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.7419, -10.2987, -11.5734, -11.2336]
+>> QUESTION #242   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-10.7623, -10.887, -10.2098, -11.7156]
+>> QUESTION #243   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.1654, -13.3299, -13.8359, -14.464]
+>> QUESTION #244   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-9.681, -10.4761, -12.1337, -10.8949]
+>> QUESTION #245   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.0493, -11.6432, -11.5219, -12.0527]
+>> QUESTION #246   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.1911, -10.6966, -11.0634, -11.2331]
+>> QUESTION #247   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.2089, -12.1492, -12.1181, -12.3863]
+>> QUESTION #248   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.6123, -13.1466, -12.9175, -12.1352]
+>> QUESTION #249   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.4778, -11.9445, -11.77, -12.0939]
+>> QUESTION #250   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.794, -11.3088, -11.5811, -11.2396]
+>> QUESTION #251   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-10.3482, -11.8658, -9.9466, -10.9907]
+>> QUESTION #252   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-14.8074, -13.3763, -12.7108, -12.9464]
+>> QUESTION #253   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.5392, -12.6131, -11.6558, -10.5883]
+>> QUESTION #254   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.8627, -14.2727, -10.5134, -13.9276]
+>> QUESTION #255   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.6128, -10.2822, -11.5644, -11.515]
+>> QUESTION #256   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.4997, -11.4664, -11.4065, -13.085]
+>> QUESTION #257   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.2539, -11.6627, -11.9655, -11.9028]
+>> QUESTION #258   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.3423, -11.7176, -13.3947, -12.1829]
+>> QUESTION #259   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.9115, -10.5172, -10.3055, -13.9753]
+>> QUESTION #260   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8142, -12.0876, -13.0066, -12.3433]
+>> QUESTION #261   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.1281, -10.2299, -12.6846, -10.8588]
+>> QUESTION #262   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.1744, -12.9881, -12.0973, -13.0742]
+>> QUESTION #263   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.0816, -9.9446, -9.7637, -9.3685]
+>> QUESTION #264   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.3937, -11.56, -12.1694, -14.4861]
+>> QUESTION #265   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.3977, -10.3368, -12.2241, -11.8368]
+>> QUESTION #266   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.2843, -12.9508, -12.3963, -12.4221]
+>> QUESTION #267   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.1704, -12.2207, -13.0648, -14.9873]
+>> QUESTION #268   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.98, -11.5473, -11.8091, -12.0124]
+>> QUESTION #269   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.1861, -11.4643, -11.8479, -12.5123]
+>> QUESTION #270   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.946, -13.2799, -14.1223, -13.9843]
+>> QUESTION #271   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8017, -12.5154, -13.0509, -14.1296]
+>> QUESTION #272   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-15.2466, -14.0889, -12.8672, -12.5615]
+>> QUESTION #273   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.8184, -12.7197, -11.3554, -12.8159]
+>> QUESTION #274   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.3853, -10.4301, -11.8558, -14.2824]
+>> QUESTION #275   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.7635, -13.5172, -12.3967, -12.8711]
+>> QUESTION #276   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.3404, -12.7865, -12.9916, -12.9911]
+>> QUESTION #277   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.6358, -11.4728, -13.4614, -14.4918]
+>> QUESTION #278   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.4408, -9.879, -11.6316, -11.8884]
+>> QUESTION #279   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.3122, -11.1133, -12.272, -11.8732]
+>> QUESTION #280   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.1958, -12.4942, -12.4431, -13.0779]
+>> QUESTION #281   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.987, -10.6183, -9.643, -10.6261]
+>> QUESTION #282   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-11.847, -11.2737, -11.5663, -13.6688]
+>> QUESTION #283   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.9861, -10.4037, -11.3067, -12.0981]
+>> QUESTION #284   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4844, -12.5246, -11.9788, -13.0267]
+>> QUESTION #285   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.9549, -11.5758, -11.6368, -11.146]
+>> QUESTION #286   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.5802, -12.457, -12.3392, -13.138]
+>> QUESTION #287   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9461, -12.2137, -11.966, -13.2154]
+>> QUESTION #288   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.3346, -11.2599, -11.5832, -13.2917]
+>> QUESTION #289   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-13.3764, -12.691, -13.9852, -12.9613]
+>> QUESTION #290   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.2873, -13.7489, -13.0241, -12.7934]
+>> QUESTION #291   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.5113, -12.252, -11.7925, -15.2074]
+>> QUESTION #292   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.7826, -11.8681, -12.809, -12.0531]
+>> QUESTION #293   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.4954, -12.4497, -12.0296, -11.8603]
+>> QUESTION #294   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.946, -12.7041, -13.3884, -13.1878]
+>> QUESTION #295   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-14.0707, -14.6898, -13.6418, -13.3699]
+>> QUESTION #296   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-14.2891, -14.4058, -14.5726, -14.6847]
+>> QUESTION #297   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.5307, -14.228, -12.3341, -13.8567]
+>> QUESTION #298   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.6116, -11.919, -12.8114, -12.135]
+>> QUESTION #299   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.9103, -13.4978, -12.0673, -12.6531]
+>> QUESTION #300   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.1216, -12.0919, -12.1602, -11.933]
+>> QUESTION #301   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-12.9668, -13.3618, -11.662, -12.4557]
+>> QUESTION #302   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-13.3201, -13.1616, -12.5367, -12.0573]
+>> QUESTION #303   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8393, -12.6258, -14.184, -12.5351]
+>> QUESTION #304   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.0868, -13.0064, -12.115, -11.5938]
+>> QUESTION #305   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.262, -12.1584, -14.5388, -12.621]
+>> QUESTION #306   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-14.8771, -14.2176, -14.3604, -13.1237]
+>> QUESTION #307   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.5256, -10.5236, -10.6408, -11.5972]
+>> QUESTION #308   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.1938, -11.416, -11.5674, -10.5022]
+>> QUESTION #309   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-11.3563, -10.4925, -11.9722, -11.6427]
+>> QUESTION #310   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.1732, -12.3033, -12.2511, -12.5461]
+>> QUESTION #311   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.6428, -11.5537, -12.3116, -12.1871]
+>> QUESTION #312   | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.8491, -13.2265, -11.531, -11.9453]
+>> QUESTION #313   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.8255, -12.9242, -12.7713, -14.206]
+>> QUESTION #314   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.5378, -11.5409, -12.5844, -11.094]
+>> QUESTION #315   | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-10.6265, -11.6078, -10.5265, -13.0793]
+>> QUESTION #316   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.1969, -11.0149, -10.8408, -10.4282]
+>> QUESTION #317   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4668, -11.5522, -11.5219, -12.7197]
+>> QUESTION #318   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.6964, -12.4497, -12.8059, -12.323]
+>> QUESTION #319   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.8133, -10.8934, -10.8974, -11.0761]
+>> QUESTION #320   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.467, -9.6657, -8.8862, -11.8236]
+>> QUESTION #321   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.4625, -10.2857, -9.6841, -9.7149]
+>> QUESTION #322   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.8985, -13.0514, -12.9573, -13.1822]
+>> QUESTION #323   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.6753, -12.9906, -13.4026, -12.919]
+>> QUESTION #324   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4959, -11.7275, -11.7033, -12.5962]
+>> QUESTION #325   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-15.6216, -12.6453, -14.7174, -12.8354]
+>> QUESTION #326   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.1205, -13.5459, -12.6533, -13.0972]
+>> QUESTION #327   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.954, -12.2384, -11.9283, -11.9792]
+>> QUESTION #328   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-15.8605, -12.076, -8.9992, -11.6412]
+>> QUESTION #329   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.2716, -15.2356, -10.033, -13.1572]
+>> QUESTION #330   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.6533, -10.6853, -10.6478, -10.6327]
+>> QUESTION #331   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1883, -11.9262, -11.7979, -11.3221]
+>> QUESTION #332   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.7584, -12.0765, -12.1612, -12.1114]
+>> QUESTION #333   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.7179, -13.3685, -13.5744, -12.4274]
+>> QUESTION #334   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.339, -11.9713, -11.7178, -10.9538]
+>> QUESTION #335   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.4412, -10.6943, -11.2903, -10.9478]
+>> QUESTION #336   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.543, -11.8309, -12.2603, -11.5077]
+>> QUESTION #337   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.6539, -12.0952, -13.4018, -13.1557]
+>> QUESTION #338   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.1255, -12.8348, -14.0355, -12.9243]
+>> QUESTION #339   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8324, -11.9883, -12.2614, -11.8976]
+>> QUESTION #340   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.1448, -12.8938, -11.9231, -12.9379]
+>> QUESTION #341   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.1647, -12.4586, -12.1008, -10.4016]
+>> QUESTION #342   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1666, -11.398, -11.3795, -11.2757]
+>> QUESTION #343   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.2377, -11.8407, -11.7704, -11.6099]
+>> QUESTION #344   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-10.7894, -10.9359, -10.6951, -10.4349]
+>> QUESTION #345   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.8246, -10.4351, -10.9353, -10.2078]
+>> QUESTION #346   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.1619, -11.582, -11.0561, -11.5387]
+>> QUESTION #347   | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.6358, -13.966, -11.9132, -12.7276]
+>> QUESTION #348   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.1151, -11.0075, -11.0613, -11.4365]
+>> QUESTION #349   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.8066, -11.5404, -12.2849, -12.3553]
+>> QUESTION #350   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.8797, -12.2341, -12.0409, -12.5023]
+>> QUESTION #351   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.1554, -10.8969, -11.3831, -11.8825]
+>> QUESTION #352   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.7377, -11.9958, -12.1418, -12.7829]
+>> QUESTION #353   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-11.1698, -10.1158, -11.6121, -12.0729]
+>> QUESTION #354   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-10.8195, -10.6754, -10.623, -10.39]
+>> QUESTION #355   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.24, -12.3234, -11.9992, -13.9274]
+>> QUESTION #356   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.4577, -13.0222, -13.0188, -12.9401]
+>> QUESTION #357   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-14.9549, -13.1245, -11.7741, -11.7586]
+>> QUESTION #358   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.9902, -11.9259, -13.4179, -12.4944]
+>> QUESTION #359   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-9.9622, -9.7522, -10.93, -10.1615]
+>> QUESTION #360   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.3266, -11.8892, -11.6314, -12.3302]
+>> QUESTION #361   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.1153, -14.9624, -13.0396, -12.8123]
+>> QUESTION #362   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.2514, -13.6311, -14.2588, -13.2954]
+>> QUESTION #363   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.2276, -9.3041, -9.9147, -9.1531]
+>> QUESTION #364   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-11.0365, -10.7274, -11.175, -11.4737]
+>> QUESTION #365   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.9384, -11.9406, -13.2537, -12.6354]
+>> QUESTION #366   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.7821, -13.093, -12.5386, -12.9106]
+>> QUESTION #367   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.2738, -11.6124, -12.1291, -11.4774]
+>> QUESTION #368   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8108, -12.3907, -12.743, -12.6342]
+>> QUESTION #369   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.2681, -11.6686, -12.5368, -12.7247]
+>> QUESTION #370   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.0496, -11.2251, -11.4149, -11.333]
+>> QUESTION #371   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.4795, -12.6689, -13.3581, -12.2758]
+>> QUESTION #372   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-14.3748, -13.2014, -13.5257, -13.1463]
+>> QUESTION #373   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.5939, -12.1742, -11.952, -12.0587]
+>> QUESTION #374   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.3061, -10.418, -10.4708, -10.7679]
+>> QUESTION #375   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.5802, -10.0368, -10.774, -10.7392]
+>> QUESTION #376   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.6464, -13.545, -12.3739, -12.0544]
+>> QUESTION #377   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.9213, -11.4553, -11.5782, -10.5896]
+>> QUESTION #378   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-12.4959, -12.5395, -9.8374, -10.1013]
+>> QUESTION #379   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.107, -12.4656, -12.8604, -12.8816]
+>> QUESTION #380   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.0314, -10.394, -12.0273, -12.2721]
+>> QUESTION #381   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8552, -13.0708, -12.2052, -12.5023]
+>> QUESTION #382   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.6675, -12.0495, -11.9565, -12.0083]
+>> QUESTION #383   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.8803, -12.8479, -12.8611, -12.0953]
+>> QUESTION #384   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.333, -12.3645, -12.9274, -13.66]
+>> QUESTION #385   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.2318, -10.5199, -10.824, -10.7312]
+>> QUESTION #386   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-11.0943, -12.2694, -10.7631, -10.5801]
+>> QUESTION #387   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.9467, -12.636, -12.2298, -12.8854]
+>> QUESTION #388   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.5461, -10.8612, -10.8563, -10.761]
+>> QUESTION #389   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.3197, -14.0312, -13.8612, -13.9469]
+>> QUESTION #390   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.7705, -12.7689, -10.8365, -11.2196]
+>> QUESTION #391   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.8975, -12.7561, -12.843, -12.9472]
+>> QUESTION #392   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.186, -11.9105, -13.6222, -11.437]
+>> QUESTION #393   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.0764, -10.8771, -10.4903, -11.0988]
+>> QUESTION #394   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.2821, -10.5661, -11.6362, -12.5295]
+>> QUESTION #395   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-13.4673, -15.5023, -13.1509, -13.9662]
+>> QUESTION #396   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-14.0857, -11.5507, -12.7362, -12.3706]
+>> QUESTION #397   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.3845, -13.4925, -13.8967, -12.9827]
+>> QUESTION #398   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.941, -12.1232, -11.4176, -10.7394]
+>> QUESTION #399   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.2403, -13.0585, -14.3991, -10.7225]
+>> QUESTION #400   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.0502, -11.9133, -12.953, -13.1256]
+>> QUESTION #401   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.7278, -12.4315, -13.1293, -12.298]
+>> QUESTION #402   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.3881, -11.1264, -11.3396, -11.9637]
+>> QUESTION #403   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.2591, -12.5175, -13.5959, -12.5886]
+>> QUESTION #404   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.2945, -13.5663, -13.4169, -12.5358]
+>> QUESTION #405   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.8963, -12.4427, -12.0505, -11.2713]
+>> QUESTION #406   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.3204, -14.171, -13.5059, -14.1247]
+>> QUESTION #407   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-13.1311, -13.4695, -12.8797, -12.1298]
+>> QUESTION #408   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.8019, -12.0067, -12.1136, -11.3652]
+>> QUESTION #409   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.6146, -11.2089, -10.8434, -11.7237]
+>> QUESTION #410   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.5001, -14.6617, -13.7226, -13.9123]
+>> QUESTION #411   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.7652, -12.3013, -12.8411, -13.3169]
+>> QUESTION #412   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.9549, -11.6392, -12.9548, -11.6513]
+>> QUESTION #413   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.1619, -11.4858, -12.103, -12.1733]
+>> QUESTION #414   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.1553, -11.2848, -12.0872, -10.6584]
+>> QUESTION #415   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.204, -10.9528, -10.9977, -11.0377]
+>> QUESTION #416   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-10.9587, -10.7375, -12.3551, -11.6713]
+>> QUESTION #417   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.945, -11.3452, -11.9579, -11.9839]
+>> QUESTION #418   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.6183, -12.2563, -11.3517, -11.2572]
+>> QUESTION #419   | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.1011, -11.8254, -11.7505, -12.1399]
+>> QUESTION #420   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.6291, -12.2789, -12.2951, -11.9939]
+>> QUESTION #421   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.7729, -13.1588, -12.9307, -12.4554]
+>> QUESTION #422   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.6638, -14.0241, -12.155, -11.5125]
+>> QUESTION #423   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-13.5568, -13.8874, -14.871, -13.855]
+>> QUESTION #424   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.0601, -11.977, -11.943, -12.299]
+>> QUESTION #425   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.424, -11.1155, -11.5474, -13.2283]
+>> QUESTION #426   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.1783, -12.4213, -11.9916, -11.8554]
+>> QUESTION #427   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.5615, -12.955, -13.1621, -13.6454]
+>> QUESTION #428   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.5662, -12.0179, -11.1222, -11.2533]
+>> QUESTION #429   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.8668, -12.6553, -12.3778, -13.5632]
+>> QUESTION #430   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1412, -12.8815, -12.3355, -12.4663]
+>> QUESTION #431   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.7253, -9.9597, -10.6101, -13.2904]
+>> QUESTION #432   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1089, -11.7782, -12.9176, -13.1888]
+>> QUESTION #433   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.2505, -12.5667, -12.4176, -12.5986]
+>> QUESTION #434   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.5049, -13.3859, -12.7429, -13.7648]
+>> QUESTION #435   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.3969, -11.5487, -10.8611, -11.5206]
+>> QUESTION #436   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.9321, -13.4594, -12.1454, -11.5628]
+>> QUESTION #437   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.3616, -10.0453, -10.6496, -10.6541]
+>> QUESTION #438   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.6571, -12.9063, -11.7307, -11.9565]
+>> QUESTION #439   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.8605, -11.4101, -11.7253, -11.6783]
+>> QUESTION #440   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.0065, -12.2537, -12.8148, -12.1748]
+>> QUESTION #441   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-12.2628, -11.515, -11.2819, -10.9847]
+>> QUESTION #442   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.7985, -11.4158, -11.9092, -11.7612]
+>> QUESTION #443   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.7078, -12.0637, -12.1998, -12.7454]
+>> QUESTION #444   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-14.2227, -11.311, -11.6057, -10.5084]
+>> QUESTION #445   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.1768, -11.9017, -10.9054, -12.0832]
+>> QUESTION #446   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.3034, -9.9026, -10.6661, -11.1961]
+>> QUESTION #447   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.6603, -12.8591, -13.0655, -12.4728]
+>> QUESTION #448   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.8439, -11.7877, -12.2406, -11.5255]
+>> QUESTION #449   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.7384, -11.1834, -11.3025, -11.1166]
+>> QUESTION #450   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.2585, -11.3984, -10.9467, -12.5555]
+>> QUESTION #451   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.0851, -11.4548, -13.2947, -11.1919]
+>> QUESTION #452   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.0016, -11.6391, -13.2613, -12.3453]
+>> QUESTION #453   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.9903, -13.3732, -13.5395, -12.2029]
+>> QUESTION #454   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.8227, -10.824, -9.5605, -11.743]
+>> QUESTION #455   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-8.9815, -12.6385, -12.8077, -14.2779]
+>> QUESTION #456   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.3498, -13.2993, -12.6802, -13.8136]
+>> QUESTION #457   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-13.3122, -11.3456, -14.2033, -11.8676]
+>> QUESTION #458   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.083, -12.8822, -12.7302, -12.8431]
+>> QUESTION #459   | Ground Truth: 2 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.4791, -11.6836, -12.3652, -16.4462]
+>> QUESTION #460   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.5682, -10.2331, -9.9556, -10.4958]
+>> QUESTION #461   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.2261, -12.1778, -12.0522, -11.8887]
+>> QUESTION #462   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-9.5546, -10.1792, -11.9138, -10.2916]
+>> QUESTION #463   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.8849, -12.0796, -11.8237, -11.8981]
+>> QUESTION #464   | Ground Truth: 1 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.7537, -12.7537, -11.4865, -11.4981]
+>> QUESTION #465   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1296, -11.789, -11.9319, -11.735]
+>> QUESTION #466   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.706, -11.7785, -11.1548, -12.2263]
+>> QUESTION #467   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-10.4611, -11.0779, -11.5474, -10.3471]
+>> QUESTION #468   | Ground Truth: 0 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-10.3892, -15.0334, -12.0622, -10.2669]
+>> QUESTION #469   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-10.6555, -11.0729, -11.5776, -11.2473]
+>> QUESTION #470   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.1064, -9.8301, -9.4445, -10.6807]
+>> QUESTION #471   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.9635, -11.7007, -14.0698, -12.885]
+>> QUESTION #472   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-11.2116, -11.0287, -11.528, -11.0172]
+>> QUESTION #473   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.1571, -12.2151, -12.1176, -11.9644]
+>> QUESTION #474   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-13.7907, -11.8948, -12.5259, -11.948]
+>> QUESTION #475   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.8156, -12.1738, -13.8967, -13.2308]
+>> QUESTION #476   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-13.5592, -12.3614, -13.0089, -12.034]
+>> QUESTION #477   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.1676, -11.358, -11.1715, -12.0294]
+>> QUESTION #478   | Ground Truth: 0 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-11.3393, -10.9979, -11.1125, -11.7717]
+>> QUESTION #479   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-11.0434, -12.4192, -12.3207, -11.934]
+>> QUESTION #480   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.5206, -12.5221, -12.5018, -11.8114]
+>> QUESTION #481   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-13.1479, -13.2022, -14.2078, -13.435]
+>> QUESTION #482   | Ground Truth: 2 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.2732, -12.1888, -13.0595, -12.1744]
+>> QUESTION #483   | Ground Truth: 0 | Answer: 0 | ✔
+-- Log Inverse-Perplexity: [-12.3733, -12.5856, -12.5707, -12.9405]
+>> QUESTION #484   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.0745, -11.5341, -12.4471, -13.3247]
+>> QUESTION #485   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-10.886, -10.4275, -11.8145, -10.8953]
+>> QUESTION #486   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.8343, -10.4777, -10.7975, -10.7069]
+>> QUESTION #487   | Ground Truth: 1 | Answer: 3 | ✘
+-- Log Inverse-Perplexity: [-12.2603, -12.1159, -12.1574, -11.7515]
+>> QUESTION #488   | Ground Truth: 3 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-11.5342, -12.9159, -11.5337, -14.0382]
+>> QUESTION #489   | Ground Truth: 3 | Answer: 3 | ✔
+-- Log Inverse-Perplexity: [-13.5355, -13.6392, -13.5265, -13.0247]
+>> QUESTION #490   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.978, -11.8696, -11.4367, -11.4901]
+>> QUESTION #491   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.6505, -11.7882, -11.4022, -11.9178]
+>> QUESTION #492   | Ground Truth: 3 | Answer: 1 | ✘
+-- Log Inverse-Perplexity: [-12.4518, -11.6761, -12.8601, -12.1779]
+>> QUESTION #493   | Ground Truth: 2 | Answer: 2 | ✔
+-- Log Inverse-Perplexity: [-11.403, -11.5488, -11.2913, -12.274]
+>> QUESTION #494   | Ground Truth: 0 | Answer: 2 | ✘
+-- Log Inverse-Perplexity: [-12.2105, -12.9616, -11.7335, -12.7704]
+>> QUESTION #495   | Ground Truth: 2 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-11.4317, -12.605, -12.9534, -11.5668]
+>> QUESTION #496   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.7263, -10.7821, -12.5832, -13.0863]
+>> QUESTION #497   | Ground Truth: 1 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-9.2484, -10.7598, -10.7426, -10.4565]
+>> QUESTION #498   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-12.6953, -13.0492, -13.0436, -12.7764]
+>> QUESTION #499   | Ground Truth: 3 | Answer: 0 | ✘
+-- Log Inverse-Perplexity: [-10.9077, -12.073, -11.4953, -12.3464]
+>> QUESTION #500   | Ground Truth: 1 | Answer: 1 | ✔
+-- Log Inverse-Perplexity: [-12.7882, -12.0176, -12.2655, -12.5338]
+================================================================================
+MCQA Accuracy: 23.00%
+================================================================================
