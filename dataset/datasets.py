@@ -2,13 +2,15 @@ from dataset.utils import *
 from const import LETTERS
 
 class QADSET():
-    def __init__(self, name='RACE', n=500, verbose=False):
-        self.dset_name = name
-        self.n = n
-        self.dataset = load_mini_rm(0, False, n)
+    def __init__(self, name='rm', n=500, verbose=False):
+        # Basic dataset information
+        self.dset_name, self.n = name, n
+        self.dataset = get_questions_with_exemplars(
+            info=get_dataset_info(self.dset_name), n_shots=0, n=self.n, do_strong_shuffle=False)
         if verbose:
-            print(f"type: {type(self.dataset)} | length: {len(self.dataset)}")
-        # Prompt Question
+            print(f"Dataset [{self.dset_name}] with {len(self.dataset)} questions are loaded successfully!")
+            # print(f"type: {type(self.dataset)} | length: {len(self.dataset)}")
+        # Prompt Question Preparation
         self.npq, self.bpq = None, None
 
     # Prepare Natural Prompt Question

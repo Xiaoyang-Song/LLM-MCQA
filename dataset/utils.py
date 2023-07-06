@@ -144,6 +144,7 @@ def load_hf_dataset_no_verify(path, name, data_dir, split):
 def get_questions_with_exemplars(
     info,
     n_shots,
+    n, 
     do_strong_shuffle,
     load_fn=load_hf_dataset
 ):
@@ -198,7 +199,7 @@ def get_questions_with_exemplars(
         for qwe in qwes:
             qwe.strong_shuffle()
 
-    return qwes
+    return random.sample(qwes, n)
 
 
 def load_tiny_obqa(n_shots, do_strong_shuffle):
@@ -211,14 +212,14 @@ def load_tiny_obqa(n_shots, do_strong_shuffle):
     return random.sample(qwes, 100)
 
 
-def load_mini_rm(n_shots, do_strong_shuffle, n):
+def load_mini_rm(n_shots, do_strong_shuffle):
     qwes = get_questions_with_exemplars(
         info=get_dataset_info("rm"),
         n_shots=n_shots,
         do_strong_shuffle=do_strong_shuffle
     )
     random.seed(REPRODUCIBILITY_SEED)
-    return random.sample(qwes, n)
+    return random.sample(qwes, 500)
 
 
 def load_mini_sc(n_shots, do_strong_shuffle):

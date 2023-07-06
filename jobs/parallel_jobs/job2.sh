@@ -15,4 +15,4 @@ conda init bash
 conda activate OoD
 
 # Run jobs
-python main/main_mcqa.py --config=config/general.yaml --dset=RACE --n=500 --ans_mode=desc --model=gpt-j --version=EleutherAI/gpt-j-6B
+python main/main_mcqa.py --config=config/general.yaml --dset=rm --n=500 --ans_mode=desc --model=gpt-j --version=EleutherAI/gpt-j-6B
