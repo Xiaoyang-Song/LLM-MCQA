@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --account=sunwbgt0
+#SBATCH --account=jhjin1
 #SBATCH --job-name=OoD
 #SBATCH --mail-user=xysong@umich.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -9,10 +9,10 @@
 #SBATCH --mem=128GB
 #SBATCH --cpus-per-task=16
 #SBATCH --time=48:00:00
-#SBATCH --output=/home/xysong/LLM-MCQA/slrum-jobs/gptj_index.log
+#SBATCH --output=/home/xysong/LLM-MCQA/slrum-jobs/gptj_index-desc.log
 
 conda init bash
 conda activate OoD
 
 # Run jobs
-python main/main_mcqa.py --config=config/general.yaml --dset=RACE --n=500 --ans_mode=index --model=gpt-j --version=EleutherAI/gpt-j-6B
+python main/main_mcqa.py --config=config/general.yaml --dset=RACE --n=500 --ans_mode=index-desc --model=gpt-j --version=EleutherAI/gpt-j-6B
