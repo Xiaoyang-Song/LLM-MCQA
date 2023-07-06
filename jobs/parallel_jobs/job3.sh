@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --account=jhjin1
-#SBATCH --job-name=OoD
+#SBATCH --job-name=J3
 #SBATCH --mail-user=xysong@umich.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --nodes=1
