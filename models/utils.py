@@ -1,5 +1,6 @@
 import torch
 import numpy as np
+from icecream import ic
 from const import *
 
 def prob_to_ll(prob): return torch.mean(torch.log(prob))
@@ -28,7 +29,8 @@ def find_critical_word(tokenizer, encoded_seq):
     return critical_word, tokens_indices
 
 def find_critical_phrase(tokenizer, encoded_seq, target):
-    target = set(target.split())
+    raw = target
+    target = set(target.split(' '))
     phrase, toi = set(), []
     seq = encoded_seq
     while phrase != target:
@@ -36,6 +38,7 @@ def find_critical_phrase(tokenizer, encoded_seq, target):
         word, tokens = find_critical_word(tokenizer, seq)
 
         # Update
+        # ic(word, tokens)
         seq = seq[:, :-len(tokens)]
         if seq.shape[1] == 0:
             break
@@ -44,7 +47,8 @@ def find_critical_phrase(tokenizer, encoded_seq, target):
         # Check
         if phrase == target:
             return toi
-    assert False, 'There is something wrong in tokenization.'
+    
+    assert False, f'There is something wrong when tokenizing [{raw}].'
 
 def close_vocab_answering(prompt, choice, tokenizer, model):
     with torch.no_grad():
@@ -57,7 +61,7 @@ def close_vocab_answering(prompt, choice, tokenizer, model):
         # Logits and token-of-interests 
         logits = model(**tokens).logits
         toi = find_critical_phrase(tokenizer, tokens.input_ids, choice)
-        # Extract probability and inverse perplexity
+        # Extract probability and  log inverse perplexity
         probs = logit_to_prob(logits.squeeze(), tokens.input_ids[0])[-len(toi):]
         ll = prob_to_ll(probs)
         # For inverse perplexity, the higher is the better

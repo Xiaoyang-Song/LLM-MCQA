@@ -419,6 +419,7 @@ def get_piqa_dataset_info(test):
     )
 
 
+# COSMOS QA
 def get_cqa_dataset_info(test):
     return DatasetInfo(
         path="cosmos_qa",
