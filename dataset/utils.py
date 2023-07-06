@@ -152,7 +152,7 @@ def get_questions_with_exemplars(
     # If ds_info is a function that tells us that the dataset
     # should be loaded using that custom function
     if callable(info):
-        return info(n_shots=n_shots, do_strong_shuffle=do_strong_shuffle)
+        return info(n_shots=n_shots, do_strong_shuffle=do_strong_shuffle, n=n)
 
     # Create exemplars
     exemplar_ds = load_fn(
@@ -212,14 +212,15 @@ def load_tiny_obqa(n_shots, do_strong_shuffle):
     return random.sample(qwes, 100)
 
 
-def load_mini_rm(n_shots, do_strong_shuffle):
+def load_mini_rm(n_shots, do_strong_shuffle, n):
     qwes = get_questions_with_exemplars(
         info=get_dataset_info("rm"),
         n_shots=n_shots,
-        do_strong_shuffle=do_strong_shuffle
+        do_strong_shuffle=do_strong_shuffle,
+        n=n
     )
     random.seed(REPRODUCIBILITY_SEED)
-    return random.sample(qwes, 500)
+    return qwes
 
 
 def load_mini_sc(n_shots, do_strong_shuffle):
@@ -272,8 +273,8 @@ def load_lqa(n_shots, do_strong_shuffle):
         load_fn=read_lqa
     )
 
-
-def load_mmlu(n_shots, do_strong_shuffle):
+# MMLU
+def load_mmlu(n_shots, do_strong_shuffle, n):
     all_qwes = list()
     for name in MMLU_NAMES:
         name_qwes = get_questions_with_exemplars(
@@ -297,6 +298,7 @@ def load_mmlu(n_shots, do_strong_shuffle):
             ),
             n_shots=n_shots,
             do_strong_shuffle=do_strong_shuffle,
+            n=n,
             load_fn=load_hf_dataset_no_verify
         )
         all_qwes.extend(name_qwes)

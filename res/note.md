@@ -13,13 +13,22 @@ Model: GPT-J
 
 | Dataset   | Method     | Accuracy  |
 | --------- | ---------- | --------- |
-|           | Index      | 211 / 500 |
-| RACE-M    | Desc       | 242 / 500 |
-|           | Index-Desc | 270 / 500 |
+|           | Index      | 23%       |
+| RACE-M    | Desc       | 23%       |
+|           | Index-Desc | 26%       |
 | -------   | ---------- | --------- |
-|           | Index      | 37 / 100  |
-| COSMOS-QA | Desc       | 43 / 100  |
-|           | Index-Desc | 44 / 100  |
+|           | Index      | 26.2%     |
+| COSMOS-QA | Desc       | 18%       |
+|           | Index-Desc | 13.8%     |
 
+Model: GPT4All-J
 
-
+| Dataset   | Method     | Accuracy  |
+| --------- | ---------- | --------- |
+|           | Index      | 23.4%     |
+| RACE-M    | Desc       | 23.2%     |
+|           | Index-Desc | 20.2%     |
+| -------   | ---------- | --------- |
+|           | Index      | 25%       |
+| COSMOS-QA | Desc       | 16.2%     |
+|           | Index-Desc | 13.8%     |
