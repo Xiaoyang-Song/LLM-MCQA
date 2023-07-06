@@ -420,7 +420,7 @@ def get_piqa_dataset_info(test):
     )
 
 
-# COSMOS QA
+# COSMOS QA: https://huggingface.co/datasets/cosmos_qa
 def get_cqa_dataset_info(test):
     return DatasetInfo(
         path="cosmos_qa",

@@ -5,6 +5,7 @@ class QADSET():
     def __init__(self, name='rm', n=500, verbose=False):
         # Basic dataset information
         self.dset_name, self.n = name, n
+        # Dataset loading: currently in a zero-shot manner
         self.dataset = get_questions_with_exemplars(
             info=get_dataset_info(self.dset_name), n_shots=0, n=self.n, do_strong_shuffle=False)
         if verbose:

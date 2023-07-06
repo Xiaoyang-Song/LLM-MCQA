@@ -4,6 +4,13 @@
 export PYTHONPATH=$PYTHONPATH$:`pwd`
 
 # Run jobs
-sbatch jobs/parallel_jobs/job1.sh
-sbatch jobs/parallel_jobs/job2.sh
-sbatch jobs/parallel_jobs/job3.sh
+
+# RACE-M
+# sbatch jobs/parallel_jobs/rm_i.sh
+# sbatch jobs/parallel_jobs/rm_d.sh
+# sbatch jobs/parallel_jobs/rm_id.sh
+
+# Cosmos-QA
+sbatch jobs/parallel_jobs/cqa_i.sh
+sbatch jobs/parallel_jobs/cqa_d.sh
+sbatch jobs/parallel_jobs/cqa_id.sh
