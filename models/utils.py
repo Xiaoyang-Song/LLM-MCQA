@@ -47,17 +47,18 @@ def find_critical_phrase(tokenizer, encoded_seq, target):
     assert False, 'There is something wrong in tokenization.'
 
 def close_vocab_answering(prompt, choice, tokenizer, model):
-    # Tokenization
-    tokens = tokenizer(
-        prompt.strip() + " " + choice, return_tensors="pt", add_special_tokens=False)
-    # Device Communication
-    for item, _ in tokens.items():
-        tokens[item] = tokens[item].to(DEVICE)
-    # Logits and token-of-interests 
-    logits = model(**tokens).logits
-    toi = find_critical_phrase(tokenizer, tokens.input_ids, choice)
-    # Extract probability and inverse perplexity
-    probs = logit_to_prob(logits.squeeze(), tokens.input_ids[0])[-len(toi):]
-    ll = prob_to_ll(probs)
-    # For inverse perplexity, the higher is the better
-    return probs, ll, tokenizer.decode(toi).strip()
+    with torch.no_grad():
+        # Tokenization
+        tokens = tokenizer(
+            prompt.strip() + " " + choice, return_tensors="pt", add_special_tokens=False)
+        # Device Communication
+        for item, _ in tokens.items():
+            tokens[item] = tokens[item].to(DEVICE)
+        # Logits and token-of-interests 
+        logits = model(**tokens).logits
+        toi = find_critical_phrase(tokenizer, tokens.input_ids, choice)
+        # Extract probability and inverse perplexity
+        probs = logit_to_prob(logits.squeeze(), tokens.input_ids[0])[-len(toi):]
+        ll = prob_to_ll(probs)
+        # For inverse perplexity, the higher is the better
+        return probs, ll, tokenizer.decode(toi).strip()

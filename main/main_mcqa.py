@@ -32,6 +32,7 @@ dataset = QADSET(name=args.dset, n=args.n)
 # Model Loading
 version = args.version
 model = MODELS[args.model](version)
+ic("Model checkpoint is loaded successfully!")
 
 # Path
 # Process model version information
