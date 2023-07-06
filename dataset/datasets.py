@@ -33,6 +33,7 @@ class QADSET():
             index.append(idx)
             desc.append(content)
             index_desc.append(list(map('. '.join, zip(idx, content))))
+        # Return relevant choices based on input arguments
         if mode == 'index':
             return index
         elif mode == 'desc':

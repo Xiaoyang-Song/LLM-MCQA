@@ -8,12 +8,23 @@ import numpy as np
 from util.utils import *
 from icecream import ic
 import transformers
-from transformers import AutoTokenizer, GPTJForCausalLM, GPT2LMHeadModel
+from transformers import AutoTokenizer, GPTJForCausalLM, GPT2LMHeadModel, AutoModelForCausalLM
 
 
 # External imports
 from models.utils import *
+class GPT4AllJModel():
+    def __init__(self, version):
+        # version: https://huggingface.co/nomic-ai/gpt4all-j
+        assert version in ['nomic-ai/gpt4all-j']
+        self.version = version
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            version, cache_dir=HF_CACHE_DIR_NAME)
+        self.model = AutoModelForCausalLM.from_pretrained(
+            version, revision="v1.2-jazzy", cache_dir=HF_CACHE_DIR_NAME).to(DEVICE)
 
+    def __call__(self, prompt, choice):
+        return close_vocab_answering(prompt, choice, self.tokenizer, self.model)
 
 class GPTJModel():
     def __init__(self, version):
@@ -45,6 +56,7 @@ class GPT2Model():
 # Define model dictionary
 MODELS = {
     'gpt-j': GPTJModel,
+    'gpt4all-j': GPT4AllJModel,
     'gpt2': GPT2Model
 }
 
