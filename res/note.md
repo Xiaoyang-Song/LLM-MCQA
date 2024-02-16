@@ -32,3 +32,27 @@ Model: GPT4All-J
 |           | Index      | 25%       |
 | COSMOS-QA | Desc       | 16.2%     |
 |           | Index-Desc | 13.8%     |
+
+Model: Red Pajama 7B
+
+| Dataset   | Method     | Accuracy  |
+| --------- | ---------- | --------- |
+|           | Index      | 44%       |
+| RACE-M    | Desc       | 27%       |
+|           | Index-Desc | 36%       |
+| -------   | ---------- | --------- |
+|           | Index      | 19.8%     |
+| COSMOS-QA | Desc       | 22%       |
+|           | Index-Desc | 24.8%     |
+
+Model: MPT 7B
+
+| Dataset   | Method     | Accuracy  |
+| --------- | ---------- | --------- |
+|           | Index      | 30%       |
+| RACE-M    | Desc       | 23%       |
+|           | Index-Desc | 26.4%     |
+| -------   | ---------- | --------- |
+|           | Index      | 23%       |
+| COSMOS-QA | Desc       | 19.8%     |
+|           | Index-Desc | 27.6%     |
